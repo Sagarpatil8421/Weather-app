@@ -1,7 +1,6 @@
 let button = document.querySelector('.button');
 let inputvalue = document.querySelector('.inputvalue');
 let name = document.querySelector('.name');
-let country = document.querySelector('.country');
 let desc = document.querySelector('.desc');
 let temp = document.querySelector('.temp');
 let humidity = document.querySelector('.humidity');
