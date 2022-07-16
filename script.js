@@ -6,7 +6,7 @@ let temp = document.querySelector('.temp');
 let humidity = document.querySelector('.humidity');
 
 button.addEventListener('click',function (){
-    fetch('http://api.openweathermap.org/data/2.5/weather?q='+inputvalue.value+'&APPID=f5c03aa49b9f71beb97504ddd53f3351')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputvalue.value+'&APPID=f5c03aa49b9f71beb97504ddd53f3351')
 
     .then(Response => Response.json())
     .then(data => {
